@@ -21,8 +21,8 @@ function continuousTypingEffect(element, text, speed) {
 var nameElement = document.querySelector("#main-name"); 
 var roleElement = document.querySelector("#main-role"); 
 
-continuousTypingEffect(nameElement, "Srinila Sivakumar", 100);
-continuousTypingEffect(roleElement, "Front-End Developer", 100);
+continuousTypingEffect(nameElement, "Srinila Sivakumar", 200);
+continuousTypingEffect(roleElement, "Front-End Developer", 200);
 
 // Modify glitterEffect to pulse with blue glow only
 var blueRound = document.querySelector(".relative");
