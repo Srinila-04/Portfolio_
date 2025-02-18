@@ -113,20 +113,18 @@
             </div>
         </ul>
     </section>
+
     <!-- Home Section -->
 <section class="bg-black min-h-screen flex flex-col md:flex-row items-center justify-center p-6">
-    
     <!-- Text Content -->
     <div class="text-white font-montserrat text-lg md:flex-1 max-w-2xl text-center md:text-left md:ml-10 md:mr-36">
         <h1 class="text-3xl font-semibold">
             Hi!!
         </h1>
         <p class="text-3xl mt-2">
-            I'm <span class="galaxy-glow text-3xl">Srinila Sivakumar</span>
+            I'm <span id="main-name" class="galaxy-glow text-3xl"></span>
         </p>
-        <p class="text-pink-400 text-2xl font-montserrat mt-1">
-            Front-End Developer
-        </p>
+        <p id="main-role" class="text-pink-400 text-2xl font-montserrat mt-1"></p>        
         <p class="text-white text-base md:text-lg leading-relaxed mt-2">
             Design meets functionality in every line of code I write. With a passion for crafting seamless, responsive, 
             and visually captivating web experiences, I specialize in HTML, CSS, JavaScript, and Tailwind CSS.  
@@ -139,18 +137,19 @@
         </button>
     </div>
 
-       <!-- Profile Image with Neon Glow -->
-<div class="relative w-64 h-64 mt-10 rounded-full overflow-hidden border-4 border-pink-400 
-md:w-96 md:h-96 md:-mr-36 md:-mt-10 animate-pulse" 
-style="box-shadow: 0 0 10px #ff1493, 0 0 30px #ff1493, 0 0 40px #ff1493;">
+    <!-- Profile Image with Blue Neon Glow -->
+<div class="relative w-64 h-64 mt-10 rounded-full overflow-hidden border-4 border-transparent 
+md:w-96 md:h-96 md:-mr-36 md:-mt-10"
+style="box-shadow: 0 0 10px #1e90ff, 0 0 30px #1e90ff, 0 0 40px #1e90ff;">
 
-<!-- Glowing Effect Layer -->
-<div class="absolute inset-0 rounded-full bg-pink-400 blur-2xl opacity-50"></div>
+  <!-- Remove the Glowing Effect Layer (No pink glow) -->
+  <!-- <div class="absolute inset-0 rounded-full bg-pink-400 blur-2xl opacity-30"></div> -->
 
-<!-- Actual Image -->
-<img src="./images/image1.jpg" alt="Srinila Sivakumar" 
-class="w-full h-full object-cover rounded-full relative">
+  <!-- Actual Image -->
+  <img src="./images/image1.jpg" alt="Srinila Sivakumar" 
+  class="w-full h-full object-cover object-top rounded-full relative">
 </div>
+
 </section>
     
     <!--JavaScript-->
